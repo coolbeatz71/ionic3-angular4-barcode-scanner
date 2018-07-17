@@ -7,11 +7,14 @@ This ionic projet consume the REST API present in https://github.com/coolbeatz71
 You will need to have Ionic & Cordova installed :
 
 npm install -g cordova ionic
-Run the project with Ionic CLI:
+
+# Run the project with Ionic CLI:
+
 $ npm install
 
 $ ionic serve
-# To run the app on a device :
+
+To run the app on a device :
 
 $ ionic cordova platform add android
 
