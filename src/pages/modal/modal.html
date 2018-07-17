@@ -1,0 +1,91 @@
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>{{ status }} Information</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+<ion-list>
+    <ion-item>
+        <ion-icon name="information-circle" item-start></ion-icon>
+        Personal Id
+        <ion-note item-end>
+            {{ id }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="person" item-start></ion-icon>
+        First name
+        <ion-note item-end>
+            {{ firstName }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="person" item-start></ion-icon>
+        Last name
+        <ion-note item-end>
+            {{ lastName }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="person" item-start></ion-icon>
+        Gender
+        <ion-note item-end>
+            {{ gender }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="call" item-start></ion-icon>
+        Telephone
+        <ion-note item-end>
+            {{ phoneNumber }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="finger-print" item-start></ion-icon>
+        National Id
+        <ion-note item-end>
+            {{ nationalId }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="stats" item-start></ion-icon>
+        Status
+        <ion-note item-end>
+            {{ status }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="calendar" item-start></ion-icon>
+        Date
+        <ion-note item-end>
+            {{ date  | date: "EEEE, yyyy MMM/dd"}}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="briefcase" item-start></ion-icon>
+        Equipment Name
+        <ion-note item-end>
+            {{ equipmentName }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="information-circle" item-start></ion-icon>
+        Model Name
+        <ion-note item-end>
+            {{ model }}
+        </ion-note>
+    </ion-item>
+    <ion-item>
+        <ion-icon name="information-circle" item-start></ion-icon>
+        Serial Number
+        <ion-note item-end>
+            {{ serialNumber }}
+        </ion-note>
+    </ion-item>
+</ion-list>
+<div text-center>
+    <button ion-button block color="primary" (click) = "closeModal()">
+        Close
+    </button>
+</div>
+</ion-content>

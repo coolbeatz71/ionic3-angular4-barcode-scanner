@@ -1,0 +1,12 @@
+{
+    "LOGIN_SEGMENT_CUSTOMER" : "Client",
+    "LOGIN_SEGMENT_POS" : "Point de Vente", 
+    "SIGN_IN_BUTTONS" : "Connexion",
+    "USERNAME_INPUT" : "Nom d'utilisateur",
+    "PASSWORD_INPUT" : "Mot de passe",
+    "EMAIL_INPUT" : "Email",
+    "FORGOT_PASSWORD" : "Mot de passe oublié?",
+    "SIGN_IN_WITH" : "Ou connectez-vous avec",
+    "DONT_HAVE_ACCOUNT" : "Vous n'avez pas encore de compte?",
+    "CREATE_HERE" : "Créez ici"
+}

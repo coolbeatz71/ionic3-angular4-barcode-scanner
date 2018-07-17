@@ -1,0 +1,45 @@
+<ion-content padding class="login-container">
+	<div>
+		<div padding-horizontal text-center class="animated fadeInDown">
+			<div class="logo"></div>
+			<h2 class="logo-text">
+				<strong>VCSS Barcode-Reader</strong>
+			</h2>
+		</div>
+	</div>
+	<!-- Generated template for the LoginCustomerComponent component -->
+<div padding-horizontal class="form">
+	<form class="list-form" [formGroup]="formGroup">
+		<ion-item>
+			<ion-label floating>
+				<ion-icon ios="ios-person" md="md-person" item-start class="text-dark"></ion-icon>
+				Username 
+			</ion-label>
+			<ion-input type="email" clearInput="true" formControlName="userName"></ion-input>
+		</ion-item>
+		<p class="hasError animated bounceIn" *ngIf="userName.hasError('required') && userName.touched"><ion-icon name="close-circle"></ion-icon> username is required</p>
+		<ion-item>
+			<ion-label floating>
+				<ion-icon ios="ios-lock" md="md-lock" item-start class="text-dark"></ion-icon>
+				Password
+			</ion-label>
+			<ion-input type="password" clearInput="true" formControlName="password"></ion-input>
+		</ion-item>
+		<p class="hasError animated bounceIn" *ngIf="password.hasError('required') && password.touched"><ion-icon name="close-circle"></ion-icon> password is required</p>
+	</form>
+	<br>
+	<div>
+		<button ion-button icon-start block color="dark" [disabled] = "formGroup.invalid && formGroup.touched" tappable (click)="userLogin()">
+			<ion-icon ios="ios-log-in" md="md-log-in"></ion-icon>
+			SIGN IN
+		</button>
+	</div>
+</div>
+</ion-content>
+<ion-footer>
+	<ion-toolbar padding color="primary">
+		<ion-item no-lines>
+    		<ion-input text-center clearInput="true" type="text" [(ngModel)] = "ipAddress" placeholder = "Example: 192.168.1.123"></ion-input>
+  		</ion-item>
+	</ion-toolbar>
+</ion-footer>

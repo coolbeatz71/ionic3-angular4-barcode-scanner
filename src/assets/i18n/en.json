@@ -1,0 +1,20 @@
+{
+    "LOGIN_SEGMENT_CUSTOMER" : "Customer",
+    "LOGIN_SEGMENT_POS" : "Point of Sale", 
+    "SIGN_IN_BUTTONS" : "Sign-In",
+    "SIGN_UP_BUTTONS" : "Sign-Up",
+    "USERNAME_INPUT" : "Username",
+    "PASSWORD_INPUT" : "Password",
+    "EMAIL_INPUT" : "Email",
+    "FORGOT_PASSWORD" : "Forgot Password?",
+    "SIGN_IN_WITH" : "Or Sign in with:",
+    "DONT_HAVE_ACCOUNT" : "Don't have an account?",
+    "ALREADY_HAVE_ACCOUNT": "Already have an account?",
+    "CREATE_HERE" : "Create here",
+    "USERNAME_REQUIRED": "username is required",
+    "PASSWORD_REQUIRED": "password is required",
+    "EMAIL_REQUIRED": "password is required",
+    "CUSTOMER_REGISTER": "Customer register",
+    "FIRST_NAME_INPUT": "First name",
+    "LAST_NAME_INPUT": "Last name"
+}
